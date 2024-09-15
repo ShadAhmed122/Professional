@@ -2,18 +2,6 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 subject="সময় মত আয়কর রিটান জমা দিন, ঝামেলা মুক্ত থাকুন।"
-
-# Email credentials
-sender_email = "ifti.taxsenselimited@gmail.com"
-receiver_email = "saad47258@gmail.com"
-password = "avji fcja oxcl cpin"#ifti
-# sender_email = "joyena.taxsenselimited@gmail.com"
-# password = "lwqw cxeq qhiv fxei"#joyena.taxsenselimited@gmail.com
-# password = "axer ouoh ldmd aocq"# my
-
-
-
-# HTML Email template
 html_template = """
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="bn">
@@ -433,26 +421,77 @@ a[x-apple-data-detectors],
 </html>
 """
 
-# Create message container
-msg = MIMEMultipart()
-msg['From'] = sender_email
-msg['To'] = receiver_email
-msg['Subject'] = subject
 
-# Attach HTML body to the message
-msg.attach(MIMEText(html_template, 'html'))
+def ifti(receiver_email,a):
+    sender_email = "ifti.taxsenselimited@gmail.com"
+    password = "avji fcja oxcl cpin"#ifti
+    msg = MIMEMultipart()
+    msg['From'] = sender_email
+    msg['To'] = receiver_email
+    msg['Subject'] = subject
+    try:
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(sender_email, password)
+    except Exception as e:
+        print(e)
+    msg.attach(MIMEText(html_template, 'html'))
+    try:
+        server.sendmail(sender_email, receiver_email, msg.as_string())
+        server.quit()
+        a=a+1
+        print(f"Email sent: {a}")
+    except Exception as e:
+        print(e)
+    return a
 
-try:
-    # Set up the SMTP server
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.starttls()  # Secure the connection
-    server.login(sender_email, password)
+def shad(receiver_email,a):
+    password = "axer ouoh ldmd aocq"# my
+    sender_email = "shad.taxsenselimited@gmail.com"
+    msg = MIMEMultipart()
+    msg['From'] = sender_email
+    msg['To'] = receiver_email
+    msg['Subject'] = subject
+    try:
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(sender_email, password)
+    except Exception as e:
+        print(e)
+    msg.attach(MIMEText(html_template, 'html'))
+    try:
+        server.sendmail(sender_email, receiver_email, msg.as_string())
+        server.quit()
+        a=a+1
+        print(f"Email sent: {a}")
+    except Exception as e:
+        print(e)
+    return a
+def joyena(receiver_email,a):
+    sender_email = "joyena.taxsenselimited@gmail.com"
+    password = "lwqw cxeq qhiv fxei"#joyena
+    msg = MIMEMultipart()
+    msg['From'] = sender_email
+    msg['To'] = receiver_email
+    msg['Subject'] = subject
+    try:
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(sender_email, password)
+    except Exception as e:
+        print(e)
+    msg.attach(MIMEText(html_template, 'html'))
+    try:
+        server.sendmail(sender_email, receiver_email, msg.as_string())
+        server.quit()
+        a=a+1
+        print(f"Email sent: {a}")
+    except Exception as e:
+        print(e)
+    return a
 
-    # Send the email
-    server.sendmail(sender_email, receiver_email, msg.as_string())
-    print("Email sent successfully!")
-
-    # Close the connection
-    server.quit()
-except Exception as e:
-    print(f"Failed to send email. Error: {e}")
+if __name__ == '__main__':
+    counter=0
+    a=shad("saad47258@gmail.com",counter)
+    a=ifti("saad47258@gmail.com",a)
+    counter=joyena("saad47258@gmail.com",a)

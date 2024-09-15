@@ -1,0 +1,18 @@
+import pandas as pd
+
+# File path to the Excel file
+file_path = 'converted.xlsx'
+
+# New values to add
+new_values = [5000, 6000, 7000]
+
+# Step 1: Read the Excel file
+df = pd.read_excel(file_path)
+
+# Step 2: Add new values to the specific column ('A' in this case)
+df = pd.concat([df, pd.DataFrame({'A': new_values})], ignore_index=True)
+
+# Step 3: Save the updated DataFrame back to the Excel file
+df.to_excel(file_path, index=False)
+
+print("New values added to the column and Excel file updated successfully.")
