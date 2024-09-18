@@ -215,10 +215,10 @@ a[x-apple-data-detectors],
                   <td align="left" style="padding:0;Margin:0;width:125px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#000000;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="tel:8801401123095" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#000000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #000000">Call Us</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#000000;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="tel:8801401123084" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#000000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #000000">Call Us</a></span></td>
                      </tr>
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px"><strong>০১৪০১১২৩০৯৫</strong></p></td>
+                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px"><strong>০১৪০১১২৩০৮৪</strong></p></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -525,16 +525,16 @@ if __name__ == '__main__':
   j=0
   c=0
   f=0
-  while n!=1010:
+  while n!=2:
       if column_data[c] in read_list:
         print("Already Sent ", column_data[c])
         c=c+1
         continue
-      if n % 3 == 0:
+      if n % 3 == 0:#ifti
         i,n,f=ifti(column_data[c],i,n,f)
-      elif n % 3 == 1:
+      elif n % 3 == 1: #shad
         s,n,f=shad(column_data[c],s,n,f)
-      elif n % 3 == 2:
+      elif n % 3 == 2: #joyena
         j,n,f=joyena(column_data[c],j,n,f)
       
       
