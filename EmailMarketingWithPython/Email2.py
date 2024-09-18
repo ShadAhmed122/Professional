@@ -1,6 +1,7 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+import pandas as pd
 subject="সময় মত আয়কর রিটান জমা দিন, ঝামেলা মুক্ত থাকুন।"
 html_template = """
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -182,7 +183,7 @@ a[x-apple-data-detectors],
                   <td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:125px">
                    <table width="100%" role="presentation" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#31CB4B;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://rebrand.ly/5u5via4" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#31CB4B;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #31CB4B">WhatsApp</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#31CB4B;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://rebrand.ly/yqf62gm" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#31CB4B;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #31CB4B">WhatsApp</a></span></td>
                      </tr>
                    </table></td>
                   <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
@@ -204,7 +205,7 @@ a[x-apple-data-detectors],
                   <td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:125px">
                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#6a0dad;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="https://rebrand.ly/q7dntr1" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#6a0dad;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #6a0dad">Email</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#6a0dad;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="https://rebrand.ly/cr1qtrt" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#6a0dad;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #6a0dad">Email</a></span></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -421,8 +422,7 @@ a[x-apple-data-detectors],
 </html>
 """
 
-
-def ifti(receiver_email,a):
+def ifti(receiver_email,a,n,f):
     sender_email = "ifti.taxsenselimited@gmail.com"
     password = "avji fcja oxcl cpin"#ifti
     msg = MIMEMultipart()
@@ -435,17 +435,24 @@ def ifti(receiver_email,a):
         server.login(sender_email, password)
     except Exception as e:
         print(e)
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
     msg.attach(MIMEText(html_template, 'html'))
     try:
         server.sendmail(sender_email, receiver_email, msg.as_string())
         server.quit()
+        n=n+1
         a=a+1
-        print(f"Email sent: {a}")
+        print(f"Email sent: {n}", ' Ifti ',a, " Email Sending Failed: ",f)
     except Exception as e:
         print(e)
-    return a
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
+    return a,n,f
 
-def shad(receiver_email,a):
+def shad(receiver_email,a,n,f):
     password = "axer ouoh ldmd aocq"# my
     sender_email = "shad.taxsenselimited@gmail.com"
     msg = MIMEMultipart()
@@ -458,16 +465,24 @@ def shad(receiver_email,a):
         server.login(sender_email, password)
     except Exception as e:
         print(e)
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
     msg.attach(MIMEText(html_template, 'html'))
     try:
         server.sendmail(sender_email, receiver_email, msg.as_string())
         server.quit()
+        n=n+1
         a=a+1
-        print(f"Email sent: {a}")
+        print(f"Email sent: {n}", ' Shad ',a, " Email Sending Failed: ",f)
     except Exception as e:
         print(e)
-    return a
-def joyena(receiver_email,a):
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
+    return a,n,f
+
+def joyena(receiver_email,a,n,f):
     sender_email = "joyena.taxsenselimited@gmail.com"
     password = "lwqw cxeq qhiv fxei"#joyena
     msg = MIMEMultipart()
@@ -480,18 +495,54 @@ def joyena(receiver_email,a):
         server.login(sender_email, password)
     except Exception as e:
         print(e)
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
     msg.attach(MIMEText(html_template, 'html'))
     try:
         server.sendmail(sender_email, receiver_email, msg.as_string())
         server.quit()
+        n=n+1
         a=a+1
-        print(f"Email sent: {a}")
+        print(f"Email sent: {n}", ' Joyena ',a, " Email Sending Failed: ",f)
     except Exception as e:
         print(e)
-    return a
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
+    return a,n,f
 
 if __name__ == '__main__':
-    counter=0
-    a=shad("saad47258@gmail.com",counter)
-    a=ifti("saad47258@gmail.com",a)
-    counter=joyena("saad47258@gmail.com",a)
+  df = pd.read_excel('extracted_emails.xlsx')
+  column_data = df['Email'].tolist()
+
+  with open('Emailsentlist.txt', 'r') as file:
+    read_list = [line.strip() for line in file]
+  
+  n=0
+  s=0
+  i=0
+  j=0
+  c=0
+  f=0
+  while n!=1010:
+      if column_data[c] in read_list:
+        print("Already Sent ", column_data[c])
+        c=c+1
+        continue
+      if n % 3 == 0:
+        i,n,f=ifti(column_data[c],i,n,f)
+      elif n % 3 == 1:
+        s,n,f=shad(column_data[c],s,n,f)
+      elif n % 3 == 2:
+        j,n,f=joyena(column_data[c],j,n,f)
+      
+      
+      with open('Emailsentlist.txt', 'a') as file:
+        file.write(f"{column_data[c]}\n")
+        print(column_data[c])
+      c=c+1
+  
+  
+
+
