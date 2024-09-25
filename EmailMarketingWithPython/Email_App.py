@@ -2,17 +2,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import pandas as pd
+import time
 subject="সময় মত আয়কর রিটান জমা দিন, ঝামেলা মুক্ত থাকুন।"
-
-"""
-orcho
-
-ahmed.orcho122@gmail.com
-geiq jzzz dclx bout 
-  
-
-"""
-
 
 
 html_template = """
@@ -206,7 +197,7 @@ a[x-apple-data-detectors],
                   <td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:125px">
                    <table width="100%" role="presentation" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border es-il" style="border-style:solid;border-color:#2CB543;background:#ff0000;border-width:0;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://taxsenselimited.com/index.html" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:14px;padding:15px 20px;display:inline-block;background:#ff0000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:16.8px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #ff0000">Visit Website</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border es-il" style="border-style:solid;border-color:#2CB543;background:#ff0000;border-width:0;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://taxsenselimited.com" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:14px;padding:15px 20px;display:inline-block;background:#ff0000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:16.8px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #ff0000">Visit Website</a></span></td>
                      </tr>
                    </table></td>
                   <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
@@ -434,121 +425,236 @@ a[x-apple-data-detectors],
 </html>
 """
 
-def ifti(receiver_email,a,n,f):
-    sender_email = "ifti.taxsenselimited@gmail.com"
-    password = "avji fcja oxcl cpin"#ifti
-    msg = MIMEMultipart()
-    msg['From'] = sender_email
-    msg['To'] = receiver_email
-    msg['Subject'] = subject
-    try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(sender_email, password)
-    except Exception as e:
-        print(e)
-        f=f+1
-        print("Email Sending Failed: ",f)
-        return a,n,f
-    msg.attach(MIMEText(html_template, 'html'))
-    try:
-        server.sendmail(sender_email, receiver_email, msg.as_string())
-        server.quit()
-        n=n+1
-        a=a+1
-        print(f"Email sent: {n}", ' Ifti ',a, " Email Sending Failed: ",f)
-    except Exception as e:
-        print(e)
-        f=f+1
-        print("Email Sending Failed: ",f)
-        return a,n,f
-    return a,n,f
 
-def shad(receiver_email,a,n,f):
-    password = "axer ouoh ldmd aocq"# my
-    sender_email = "shad.taxsenselimited@gmail.com"
-    msg = MIMEMultipart()
-    msg['From'] = sender_email
-    msg['To'] = receiver_email
-    msg['Subject'] = subject
-    try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(sender_email, password)
-    except Exception as e:
-        print(e)
-        f=f+1
-        print("Email Sending Failed: ",f)
-        return a,n,f
-    msg.attach(MIMEText(html_template, 'html'))
-    try:
-        server.sendmail(sender_email, receiver_email, msg.as_string())
-        server.quit()
-        n=n+1
-        a=a+1
-        print(f"Email sent: {n}", ' Shad ',a, " Email Sending Failed: ",f)
-    except Exception as e:
-        print(e)
-        f=f+1
-        print("Email Sending Failed: ",f)
-        return a,n,f
-    return a,n,f
+EmailsPerAccount=150
 
-def joyena(receiver_email,a,n,f):
-    sender_email = "joyena.taxsenselimited@gmail.com"
-    password = "lwqw cxeq qhiv fxei"#joyena
-    msg = MIMEMultipart()
-    msg['From'] = sender_email
-    msg['To'] = receiver_email
-    msg['Subject'] = subject
-    try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(sender_email, password)
-    except Exception as e:
-        print(e)
-        f=f+1
-        print("Email Sending Failed: ",f)
-        return a,n,f
-    msg.attach(MIMEText(html_template, 'html'))
-    try:
-        server.sendmail(sender_email, receiver_email, msg.as_string())
-        server.quit()
-        n=n+1
-        a=a+1
-        print(f"Email sent: {n}", ' Joyena ',a, " Email Sending Failed: ",f)
-    except Exception as e:
-        print(e)
-        f=f+1
-        print("Email Sending Failed: ",f)
-        return a,n,f
-    return a,n,f
 
 if __name__ == '__main__':
   df = pd.read_excel('extracted_emails.xlsx')
   column_data = df['Email'].tolist()
   with open('sent.txt', 'r') as file:
     read_list = [line.strip() for line in file]
+  ############
   n=0
   s=0
   i=0
   j=0
   c=0
   f=0
-  while n!=200:
+  orcho=0
+  p=0
+  ############
+  
+# """
+#            Shad Ahmed
+# """
+
+#   try:
+#         password = "axer ouoh ldmd aocq"# my
+#         sender_email = "shad.taxsenselimited@gmail.com"
+#         server = smtplib.SMTP('smtp.gmail.com', 587)
+#         server.starttls()
+#         server.login(sender_email, password)
+#         print("Shad Logged In")
+#   except Exception as e:
+#         print("Unsuccessful Login")
+#         print(e)
+#         exit()
+  
+#   while p!=EmailsPerAccount:
+#       if column_data[c] in read_list:
+#         print("Already Sent ", column_data[c])
+#         c=c+1
+#         continue
+#       try:
+#         msg = MIMEMultipart()
+#         msg['From'] = sender_email
+#         msg['To'] = column_data[c]
+#         msg['Subject'] = subject
+#         msg.attach(MIMEText(html_template, 'html'))
+#         server.sendmail(sender_email,column_data[c], msg.as_string())
+#         n=n+1
+#         s=s+1
+#         p=p+1
+#         if n==1:
+#            print("Shad Logged In")
+#         print(f"Email sent: {n}  ", f"Shad {s}", " Email Sending Failed: ",f)
+#       except Exception as e:
+#         print(e)
+#         f=f+1
+#         print("Email Sending Failed: ",f)
+#         print(column_data[c])
+#         time.sleep(5)
+#         continue
+
+
+#       with open('sent.txt', 'a') as file:
+#         file.write(f"{column_data[c]}\n")
+#         print(column_data[c])
+#       c=c+1
+
+   
+
+#   server.quit()
+#   print("Shad Logged out")
+
+
+# # """
+# #               Joyena
+# # # """
+#   p=0
+#   try:
+#         sender_email = "joyena.taxsenselimited@gmail.com"
+#         password = "lwqw cxeq qhiv fxei"#joyena
+#         server = smtplib.SMTP('smtp.gmail.com', 587)
+#         server.starttls()
+#         server.login(sender_email, password)
+#         print("Joyena Logged In")
+#   except Exception as e:
+#         print("Unsuccessful Login")
+#         print(e)
+#         exit()
+  
+#   while p!=EmailsPerAccount:
+#       if column_data[c] in read_list:
+#         print("Already Sent ", column_data[c])
+#         c=c+1
+#         continue
+#       try:
+#         msg = MIMEMultipart()
+#         msg['From'] = sender_email
+#         msg['To'] = column_data[c]
+#         msg['Subject'] = subject
+#         msg.attach(MIMEText(html_template, 'html'))
+#         server.sendmail(sender_email,column_data[c], msg.as_string())
+#         n=n+1
+#         j=j+1
+#         p=p+1
+#         print(f"Email sent: {n}  ", f"Joyena {j}", " Email Sending Failed: ",f)
+#       except Exception as e:
+#         print(e)
+#         f=f+1
+#         print("Email Sending Failed: ",f)
+#         print(column_data[c])
+#         time.sleep(5)
+#         continue
+
+#       with open('sent.txt', 'a') as file:
+#         file.write(f"{column_data[c]}\n")
+#         print(column_data[c])
+#       c=c+1
+
+#   server.quit()
+#   print("Joyena Logged out")
+
+
+
+
+# # """
+# #               Ifti Vai
+# # """
+
+
+
+#   p=0
+#   try:
+#         sender_email = "ifti.taxsenselimited@gmail.com"
+#         password = "avji fcja oxcl cpin"#ifti
+#         server = smtplib.SMTP('smtp.gmail.com', 587)
+#         server.starttls()
+#         server.login(sender_email, password)
+#         print("Ifti Logged In")
+#   except Exception as e:
+#         print("Unsuccessful Login")
+#         print(e)
+#         exit()
+  
+#   while p!=EmailsPerAccount:
+#       if column_data[c] in read_list:
+#         print("Already Sent ", column_data[c])
+#         c=c+1
+#         continue
+#       try:
+#         msg = MIMEMultipart()
+#         msg['From'] = sender_email
+#         msg['To'] = column_data[c]
+#         msg['Subject'] = subject
+#         msg.attach(MIMEText(html_template, 'html'))
+#         server.sendmail(sender_email,column_data[c], msg.as_string())
+#         n=n+1
+#         i=i+1
+#         p=p+1
+#         print(f"Email sent: {n}  ", f"Ifti {i}", " Email Sending Failed: ",f)
+#       except Exception as e:
+#         print(e)
+#         f=f+1
+#         print("Email Sending Failed: ",f)
+#         print(column_data[c])
+#         time.sleep(5)
+#         continue
+
+#       with open('sent.txt', 'a') as file:
+#         file.write(f"{column_data[c]}\n")
+#         print(column_data[c])
+#       c=c+1
+
+#   server.quit()
+#   print("Ifti Logged out")
+
+# """
+#            Orcho
+# """
+  p=0
+  try:
+        password = "geiq jzzz dclx bout"# my
+        sender_email = "ahmed.orcho122@gmail.com"
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(sender_email, password)
+        print("Orcho Logged In")
+  except Exception as e:
+        print("Unsuccessful Login")
+        print(e)
+        exit()
+  
+  while p!=EmailsPerAccount:
       if column_data[c] in read_list:
         print("Already Sent ", column_data[c])
         c=c+1
         continue
-      if n % 2 == 0:#ifti
-        i,n,f=ifti(column_data[c],i,n,f)
-      elif n % 2 == 1: #shad
-        s,n,f=shad(column_data[c],s,n,f)
-      # elif n % 3 == 2: #joyena
-      #   j,n,f=joyena(column_data[c],j,n,f)
+      try:
+        msg = MIMEMultipart()
+        msg['From'] = sender_email
+        msg['To'] = column_data[c]
+        msg['Subject'] = subject
+        msg.attach(MIMEText(html_template, 'html'))
+        server.sendmail(sender_email,column_data[c], msg.as_string())
+        n=n+1
+        orcho=orcho+1
+        p=p+1
+        print(f"Email sent: {n}  ", f"Orcho {orcho}", " Email Sending Failed: ",f)
+      except Exception as e:
+        print(e)
+        f=f+1
+        print("Email Sending Failed: ",f)
+        print(column_data[c])
+        time.sleep(5)
+        continue
+
       with open('sent.txt', 'a') as file:
         file.write(f"{column_data[c]}\n")
         print(column_data[c])
       c=c+1
-  
-  
+
+  server.quit()
+  print("Orcho Logged out")
+
+
+
+
+
+
+  print(f"\nTotal Email Sent: {n}\n")
+
+
+

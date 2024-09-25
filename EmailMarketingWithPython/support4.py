@@ -4,17 +4,6 @@ from email.mime.text import MIMEText
 import pandas as pd
 subject="সময় মত আয়কর রিটান জমা দিন, ঝামেলা মুক্ত থাকুন।"
 
-"""
-orcho
-
-ahmed.orcho122@gmail.com
-geiq jzzz dclx bout 
-  
-
-"""
-
-
-
 html_template = """
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="bn">
@@ -434,17 +423,20 @@ a[x-apple-data-detectors],
 </html>
 """
 
+
 def ifti(receiver_email,a,n,f):
+    mailjet_api_key = "910a2f283911ee2f654a898fadc07ba1"
+    mailjet_secret_key = "9add724b527aca1ff47e9c85bf9a67a3"
     sender_email = "ifti.taxsenselimited@gmail.com"
-    password = "avji fcja oxcl cpin"#ifti
+    # password = "avji fcja oxcl cpin"#ifti
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = receiver_email
     msg['Subject'] = subject
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(sender_email, password)
+        server = smtplib.SMTP('in-v3.mailjet.com', 587)
+        server.starttls()  # Secure the connection
+        server.login(mailjet_api_key, mailjet_secret_key)
     except Exception as e:
         print(e)
         f=f+1
@@ -464,17 +456,53 @@ def ifti(receiver_email,a,n,f):
         return a,n,f
     return a,n,f
 
+
+def shadp(receiver_email,a,n,f):
+    mailjet_api_key = "06ea331ee3118ce66df03fa0cc7ef0b1"
+    mailjet_secret_key = "4fd74a9436e4e99bed9b373e31cfa0e7"
+    # password = "axer ouoh ldmd aocq"# my
+    sender_email = "saad47258@gmail.com"
+    msg = MIMEMultipart()
+    msg['From'] = sender_email
+    msg['To'] = receiver_email
+    msg['Subject'] = subject
+    try:
+        server = smtplib.SMTP('in-v3.mailjet.com', 587)
+        server.starttls()  # Secure the connection
+        server.login(mailjet_api_key, mailjet_secret_key)
+    except Exception as e:
+        print(e)
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
+    msg.attach(MIMEText(html_template, 'html'))
+    try:
+        server.sendmail(sender_email, receiver_email, msg.as_string())
+        server.quit()
+        n=n+1
+        a=a+1
+        print(f"Email sent: {n}", ' Shad_Personal ',a, " Email Sending Failed: ",f)
+    except Exception as e:
+        print(e)
+        f=f+1
+        print("Email Sending Failed: ",f)
+        return a,n,f
+    return a,n,f
+
+
 def shad(receiver_email,a,n,f):
-    password = "axer ouoh ldmd aocq"# my
+    mailjet_api_key = "8494b376463cbc43a114034b4bf0a893"
+    mailjet_secret_key = "3c44334980f11ea463d75e663ebec7c6"
+    # password = "axer ouoh ldmd aocq"# my
     sender_email = "shad.taxsenselimited@gmail.com"
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = receiver_email
     msg['Subject'] = subject
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(sender_email, password)
+        server = smtplib.SMTP('in-v3.mailjet.com', 587)
+        server.starttls()  # Secure the connection
+        server.login(mailjet_api_key, mailjet_secret_key)
     except Exception as e:
         print(e)
         f=f+1
@@ -494,17 +522,20 @@ def shad(receiver_email,a,n,f):
         return a,n,f
     return a,n,f
 
+
 def joyena(receiver_email,a,n,f):
+    mailjet_api_key = "94497d3c73318c33d5b145998720241d"
+    mailjet_secret_key = "c28c726ca5411b3fd8630f7d0fe2d1dd"
     sender_email = "joyena.taxsenselimited@gmail.com"
-    password = "lwqw cxeq qhiv fxei"#joyena
+    # password = "lwqw cxeq qhiv fxei"#joyena
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = receiver_email
     msg['Subject'] = subject
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(sender_email, password)
+        server = smtplib.SMTP('in-v3.mailjet.com', 587)
+        server.starttls()  # Secure the connection
+        server.login(mailjet_api_key, mailjet_secret_key)
     except Exception as e:
         print(e)
         f=f+1
@@ -524,10 +555,11 @@ def joyena(receiver_email,a,n,f):
         return a,n,f
     return a,n,f
 
+
 if __name__ == '__main__':
   df = pd.read_excel('extracted_emails.xlsx')
   column_data = df['Email'].tolist()
-  with open('sent.txt', 'r') as file:
+  with open('Emailsentlis.txt', 'r') as file:
     read_list = [line.strip() for line in file]
   n=0
   s=0
@@ -535,20 +567,29 @@ if __name__ == '__main__':
   j=0
   c=0
   f=0
-  while n!=200:
+  sp=0
+
+  while n!=355:
+
       if column_data[c] in read_list:
         print("Already Sent ", column_data[c])
         c=c+1
         continue
-      if n % 2 == 0:#ifti
-        i,n,f=ifti(column_data[c],i,n,f)
-      elif n % 2 == 1: #shad
+      # if n % 4 == 0:#ifti
+      #   i,n,f=ifti("saad47258@gmail.com",i,n,f)
+      if n % 2 == 0: #shad
         s,n,f=shad(column_data[c],s,n,f)
-      # elif n % 3 == 2: #joyena
-      #   j,n,f=joyena(column_data[c],j,n,f)
-      with open('sent.txt', 'a') as file:
+      # elif n % 4 == 2: #joyena
+      #   j,n,f=joyena("saad47258@gmail.com",j,n,f)
+      elif n % 2 == 1: #shadp
+        sp,n,f=shadp(column_data[c],sp,n,f)
+      with open('Emailsentlis.txt', 'a') as file:
         file.write(f"{column_data[c]}\n")
         print(column_data[c])
       c=c+1
-  
-  
+
+
+
+
+
+

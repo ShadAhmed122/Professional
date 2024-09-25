@@ -8,12 +8,39 @@ subject="সময় মত আয়কর রিটান জমা দিন, ঝ�
 """
 200 Limits
 """
+#taxsenseLimitedID
 mailjet_api_key = "8494b376463cbc43a114034b4bf0a893"
 mailjet_secret_key = "3c44334980f11ea463d75e663ebec7c6"
 sender_email = "shad.taxsenselimited@gmail.com"
 receiver_email = "saad47258@gmail.com"
 
+#Personal ID
+mailjet_api_key = "06ea331ee3118ce66df03fa0cc7ef0b1"
+mailjet_secret_key = "4fd74a9436e4e99bed9b373e31cfa0e7"
+sender_email = "saad47258@gmail.com"
+receiver_email = "shad.taxsenselimited@gmail.com"
+
+#Ifti vai
+mailjet_api_key = "910a2f283911ee2f654a898fadc07ba1"
+mailjet_secret_key = "9add724b527aca1ff47e9c85bf9a67a3"
+sender_email = "ifti.taxsenselimited@gmail.com"
+receiver_email = "shad.taxsenselimited@gmail.com"
+
+# #Joyena Apu
+# mailjet_api_key = "94497d3c73318c33d5b145998720241d"
+# mailjet_secret_key = "c28c726ca5411b3fd8630f7d0fe2d1dd"
+# sender_email = "joyena.taxsenselimited@gmail.com"
+# receiver_email = "shad.taxsenselimited@gmail.com"
+
+#Orcho Ahmed
+mailjet_api_key = "b050e1847bc69723a8c6eee96a12c43f"
+mailjet_secret_key = "93fac1633b701e57183d3b55231bc8d8"
+sender_email = "ahmed.orcho122@gmail.com"
+receiver_email = "shad.taxsenselimited@gmail.com"
+
+
 # Email content
+
 html_template = """
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="bn">
@@ -194,7 +221,7 @@ a[x-apple-data-detectors],
                   <td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:125px">
                    <table width="100%" role="presentation" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#31CB4B;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://rebrand.ly/5u5via4" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#31CB4B;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #31CB4B">WhatsApp</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#31CB4B;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://wa.me/8801401123085" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#31CB4B;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #31CB4B">WhatsApp</a></span></td>
                      </tr>
                    </table></td>
                   <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
@@ -205,7 +232,7 @@ a[x-apple-data-detectors],
                   <td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:125px">
                    <table width="100%" role="presentation" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border es-il" style="border-style:solid;border-color:#2CB543;background:#ff0000;border-width:0;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://rebrand.ly/sy33f84" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:14px;padding:15px 20px;display:inline-block;background:#ff0000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:16.8px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #ff0000">Visit Website</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border es-il" style="border-style:solid;border-color:#2CB543;background:#ff0000;border-width:0;display:inline-block;border-radius:30px;width:auto"><a target="_blank" href="https://taxsenselimited.com/index.html" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:14px;padding:15px 20px;display:inline-block;background:#ff0000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:16.8px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #ff0000">Visit Website</a></span></td>
                      </tr>
                    </table></td>
                   <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
@@ -216,7 +243,7 @@ a[x-apple-data-detectors],
                   <td align="left" class="es-m-p20b" style="padding:0;Margin:0;width:125px">
                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#6a0dad;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="https://rebrand.ly/q7dntr1" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#6a0dad;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #6a0dad">Email</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#6a0dad;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="mailto:shad.taxsenselimited@gmail.com?subject=Regarding%20Tax" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#6a0dad;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #6a0dad">Email</a></span></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -226,10 +253,10 @@ a[x-apple-data-detectors],
                   <td align="left" style="padding:0;Margin:0;width:125px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#000000;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="tel:8801401123095" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#000000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #000000">Call Us</a></span></td>
+                      <td align="center" style="padding:0;Margin:0"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#000000;border-width:0px 0px 2px 0px;display:inline-block;border-radius:30px;width:auto"><a href="tel:8801401123084" target="_blank" class="es-button" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;padding:10px 20px 10px 20px;display:inline-block;background:#000000;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #000000">Call Us</a></span></td>
                      </tr>
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px"><strong>০১৪০১১২৩০৯৫</strong></p></td>
+                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px"><strong>০১৪০১১২৩০৮৪</strong></p></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -434,11 +461,11 @@ a[x-apple-data-detectors],
 """
 
 
-# Set up message
+
 message = MIMEMultipart()
 message['From'] = sender_email
 message['To'] = receiver_email
-message['Subject'] =subject
+message['Subject'] = "Test Email via Mailjet"
 
 # Attach the email body
 message.attach(MIMEText(html_template, 'html'))
