@@ -3,10 +3,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 subject="সময় মত আয়কর রিটান জমা দিন, ঝামেলা মুক্ত থাকুন।"
 
+
 # Email credentials
-sender_email = "ifti.taxsenselimited@gmail.com"
+sender_email = "shishir.taxsenselimited@gmail.com"
 receiver_email = "saad47258@gmail.com"
-password = "avji fcja oxcl cpin"#ifti
+password = "pzfc hxcq yugv kaot"#ifti
 # sender_email = "joyena.taxsenselimited@gmail.com"
 # password = "lwqw cxeq qhiv fxei"#joyena.taxsenselimited@gmail.com
 # password = "axer ouoh ldmd aocq"# my
