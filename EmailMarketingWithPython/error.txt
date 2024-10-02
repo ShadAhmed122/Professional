@@ -1,1 +1,2 @@
 sending limits go
+please run connect() first

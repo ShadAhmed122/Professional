@@ -1,0 +1,833 @@
+PS D:\OfficeDocumentsOfShadAhmed\MyProfessionalRepository\Professional\InvoiceReaderSoftware> python -u "d:\OfficeDocumentsOfShadAhmed\MyProfessionalRepository\Professional\InvoiceReaderSoftware\support2.py"
+NATURO
+Help Line: 09639812525
+Invoice No: NA-090796 Date: 26-09-2024 18:19:16
+Name: SHOFIQ OCC Phone: 880171 1301376
+Address:  উপেজলা  া  কমে  ঝনাইগাতী  জলা  শরপুর  ময়মনিসংহ
+Product Qty Price Total
+Garlic Honey 1 Kg 1 Tk 1,350.00 Tk 1,350.00
+Seed Shorbot 0.5 Kg 1 Tk 550.00 Tk 550.00
+Chia Seeds 1 Kg 1 Tk 650.00 Tk 650.00
+Black Honey 1 Kg 1 Tk 1,450.00 Tk 1,450.00
+Sub T otal Tk 4,000.00
+Shipping Cost Tk 100.00
+Discount Tk 1,000.00
+Total Amount Tk 3,100.00
+Notes
+িবকােশ  এডভা  করা  হেয়েছ  ১০০০  টাকা
+1
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-091460 Date: 28-09-2024 1 1:07:43
+Name: Fahim Phone: 8801971797971
+Address:  Road Q, House 1A(1st FLS), Nurjahan Road, Mohammadpur ,
+Dhaka
+Product Qty Price Total
+Isubgol Husk 0.5 Kg 1 Tk 1,350.00 Tk 1,350.00
+Sundarban Box Honey 1 Kg 1 Tk 1,000.00 Tk 1,000.00
+Sub T otal Tk 2,350.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,400.00
+2
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092482 Date: 30-09-2024 21:55:13
+Name: িলখন Phone: 8801625647600
+Address:  ঠকানা : Khalil Sardar Jame Masjid, Badda Nagor W ater Tanki,
+Hazaribagh, Dhaka.
+Product Qty Price Total
+Chia Seeds 0.5 Kg 1 Tk 350.00 Tk 350.00
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Sub T otal Tk 500.00
+Shipping Cost Tk 50.00
+Total Amount Tk 550.00
+3
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092484 Date: 30-09-2024 21:56:20
+Name: Sharmin Sultana Phone: 8801793592829
+Address:  House No# B -186, Block # B Road # E -1, Eastern housing Ltd.
+Pollobi Dhaka
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Mustard Honey 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sub T otal Tk 2,150.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,200.00
+4
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092491 Date: 30-09-2024 22:04:37
+Name: Md Munna Phone: 8801867174957
+Address:  Cumilla jela, 14gram upojela 5no: Shuvo pur eyonion potkora gram
+Product Qty Price Total
+Moringa Powder 0.5 Kg 2 Tk 750.00 Tk 1,500.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+5
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092492 Date: 30-09-2024 22:06:35
+Name: Samiul islam Phone: 8801322369478
+Address:  Mohammadpur Ikbal Road, Dhaka
+Product Qty Price Total
+Chia Seeds 0.5 Kg 1 Tk 350.00 Tk 350.00
+Sundarban Natural Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 1,150.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,200.00
+Notes
+Urgent Delivery
+6
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092493 Date: 30-09-2024 22:07:38
+Name: রািকব Phone: 8801890065175
+Address:  Moulvibazar , Office Bazar
+Product Qty Price Total
+Garlic Honey 0.5 Kg 1 Tk 700.00 Tk 700.00
+Chia Honey Combo 1 Kg 1 Tk 900.00 Tk 900.00
+Sub T otal Tk 1,600.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,700.00
+7
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092509 Date: 30-09-2024 23:10:12
+Name: Md shakib hossain Phone: 8801713150343
+Address:  118/2, zhorna aloy , 1B, matikata bazar , near mannan gate ,
+matikata, dhaka cantonment
+Product Qty Price Total
+Sundarban Natural Honey 1 Kg 2 Tk 1,500.00 Tk 3,000.00
+Sub T otal Tk 3,000.00
+Shipping Cost Tk 50.00
+Total Amount Tk 3,050.00
+8
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092512 Date: 30-09-2024 23:15:03
+Name: Arif Phone: 8801764368932
+Address:  Mograpara chowrasta, Sonargoan, Narayanganj
+Product Qty Price Total
+Moringa Powder 0.5 Kg 2 Tk 750.00 Tk 1,500.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+9
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092536 Date: 01-10-2024 00:37:35
+Name: masum Phone: 8801837910960
+Address:  গৗরীপুর  দাউদকা  ক ু িমা
+Product Qty Price Total
+Black Honey 1 Kg 2 Tk 1,450.00 Tk 2,900.00
+Sub T otal Tk 2,900.00
+Shipping Cost Tk 100.00
+Total Amount Tk 3,000.00
+10
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092537 Date: 01-10-2024 00:38:33
+Name: Foysal Bhai Phone: 8801846494051
+Address:  ফনী  সদর  হাসপাতাল  মাড়
+Product Qty Price Total
+Garlic Honey 1 Kg 1 Tk 1,350.00 Tk 1,350.00
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sub T otal Tk 2,450.00
+Shipping Cost Tk 100.00
+Total Amount Tk 2,550.00
+11
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092549 Date: 01-10-2024 01:09:32
+Name: মাঃ  আলহাজ  উন Phone: 8801318855380
+Address:  কামস  িবং , ইিপেজড , চাম
+Product Qty Price Total
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+Sub T otal Tk 1,850.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,950.00
+12
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092552 Date: 01-10-2024 01:15:42
+Name: Tazul Islam Phone: 8801741204884
+Address:  135,Ahmed bagh(2nd Lane) Sabuj bagh.Dhaka
+Product Qty Price Total
+Garlic Honey 0.5 Kg 1 Tk 700.00 Tk 700.00
+Sundarban Box Honey 1 Kg 1 Tk 1,000.00 Tk 1,000.00
+Sub T otal Tk 1,700.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,750.00
+13
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092554 Date: 01-10-2024 01:18:22
+Name: Md. Delwar Hossen Mishu Phone: 8801712226066
+Address:  খালািস  বািড় , কালািময়া  বাজার , বাকিলয়া , চাম।
+Product Qty Price Total
+Sundarban Natural Honey 0.5 Kg 3 Tk 800.00 Tk 2,400.00
+Sub T otal Tk 2,400.00
+Shipping Cost Tk 100.00
+Total Amount Tk 2,500.00
+14
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092558 Date: 01-10-2024 01:23:12
+Name: Sakib Phone: 8801979820819
+Address:  াম = তিলহাট  আতকসপাড়া , গৗরীপুর , ময়মনিসংহ
+Product Qty Price Total
+Beej Honey Combo 1 Kg 1 Tk 950.00 Tk 950.00
+Sundarban Natural Honey 1 Kg 1 Tk 1,500.00 Tk 1,500.00
+Sub T otal Tk 2,450.00
+Shipping Cost Tk 100.00
+Total Amount Tk 2,550.00
+15
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092574 Date: 01-10-2024 02:40:45
+Name: Jebin Tasmin Phone: 8801309276261
+Address:  Children's Home Public School,Sarishabari,Jamalpur
+Product Qty Price Total
+Beej Honey Combo 1 Kg 1 Tk 950.00 Tk 950.00
+Honey Nut 0.9 Kg 1 Tk 1,200.00 Tk 1,200.00
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sundarban Box Honey 1 Kg 1 Tk 1,000.00 Tk 1,000.00
+Sub T otal Tk 4,250.00
+Shipping Cost Tk 100.00
+Total Amount Tk 4,350.00
+16
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092577 Date: 01-10-2024 03:16:30
+Name: জ ু েয়ল Phone: 8801887517087
+Address:  সানাইমুড়ী  নায়াখালী  বাজায়  বাজার
+Product Qty Price Total
+Josthimodhu 0.2 Kg 1 Tk 450.00 Tk 450.00
+Ashwagandha 0.2 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 1,050.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,150.00
+17
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092579 Date: 01-10-2024 03:59:57
+Name: Ashraf Phone: 8801791761556
+Address:  Ample trading syndicate limited, rb court (2nd floor), 54, agrabad,
+chittagong.
+Product Qty Price Total
+Garlic Honey 0.5 Kg 1 Tk 700.00 Tk 700.00
+Sundarban Natural Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+18
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092594 Date: 01-10-2024 07:55:55
+Name: mustafizur chowdhury Phone: 8801673135449
+Address:  Flat #4-A, plot# Ta-134/1 Maddle Badda, Boishakhi Saroni,
+Gulshan Dhaka.
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sub T otal Tk 2,150.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,200.00
+19
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092607 Date: 01-10-2024 08:47:30
+Name: Mehedi Hasan Phone: 8801714699995
+Address:  Khantex composite Textiles ltd. Babur Bazar , Barotopa, Mawna,
+Gazipur .
+Product Qty Price Total
+Garlic Honey 1 Kg 1 Tk 1,350.00 Tk 1,350.00
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+20
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092609 Date: 01-10-2024 08:56:01
+Name: Jannat Phone: 8801738654895
+Address:  180/C/2, South Pirerbagh,Mirpur , Dhaka -1216
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sub T otal Tk 2,150.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,200.00
+21
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-09261 1 Date: 01-10-2024 09:10:17
+Name: Mohammed Nasir Uddin Phone: 8801819621 134
+Address:  Shamoly residential area, shyamol tower Halishahar Chattogram
+Product Qty Price Total
+Ashwagandha 0.5 Kg 1 Tk 1,050.00 Tk 1,050.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+BujiDana 0.2 Kg 1 Tk 2,500.00 Tk 2,500.00
+Sub T otal Tk 4,300.00
+Shipping Cost Tk 100.00
+Discount Tk 200.00
+Total Amount Tk 4,200.00
+22
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092614 Date: 01-10-2024 09:22:34
+Name: মাঃ  ইমরান  হাসাইন Phone: 8801746152050
+Address:  সুরবন  ক ু িরয়ার , মাওলানা  ভাসানী  িবান  ও  যু  িবিবদালয়  শাখা ,
+সোষ  বাজার , টাংগাইল  সদর  উপেজলা , টাংগাইল !
+Product Qty Price Total
+Sundarban Natural Honey 1 Kg 1 Tk 1,500.00 Tk 1,500.00
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sub T otal Tk 2,600.00
+Shipping Cost Tk 100.00
+Total Amount Tk 2,700.00
+Notes
+01909413759 Extra Number
+23
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092624 Date: 01-10-2024 09:42:58
+Name: MD EMDADUL  HOQUE Phone: 8801713850303
+Address:  6th Floor , H#08, R#01, Block#H, Aftabnagar , Badda, Dhaka
+Product Qty Price Total
+Sundarban Natural Honey 1 Kg 1 Tk 1,500.00 Tk 1,500.00
+Chia Seeds 0.5 Kg 1 Tk 350.00 Tk 350.00
+Sub T otal Tk 1,850.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,900.00
+24
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092625 Date: 01-10-2024 09:46:25
+Name: Md Masud Rana. Phone: 8801776630255
+Address:  Dariapor Akondo para bajar ,Shakhipur ,Tangail.
+Product Qty Price Total
+Moringa Powder 0.5 Kg 2 Tk 750.00 Tk 1,500.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+25
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092627 Date: 01-10-2024 09:49:03
+Name: Poran Hossain Phone: 8801620249466
+Address:  Le meridian dhaka nikunjo 2,road 21
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Ashwagandha 0.2 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 1,650.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,700.00
+26
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092632 Date: 01-10-2024 10:00:16
+Name: Sourav Chanda Phone: 8801672753504
+Address:  Notun Bridge, Sayestaganj, Habiganj.
+Product Qty Price Total
+Sundarban Natural Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Lychee Honey 1 Kg 1 Tk 650.00 Tk 650.00
+Sub T otal Tk 1,450.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,550.00
+27
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092645 Date: 01-10-2024 10:12:52
+Name: মা : শিহদ ুাহ Phone: 8801873892352
+Address:  খা পাড়া  রাড , সৗিদ  মসজদ , টংগী , গাজীপুর।
+Product Qty Price Total
+Grow Up Baby Milk Shake 0.6 Kg 1 Tk 850.00 Tk 850.00
+Sub T otal Tk 850.00
+Shipping Cost Tk 100.00
+Discount Tk 50.00
+Total Amount Tk 900.00
+28
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092652 Date: 01-10-2024 10:27:05
+Name: Md Ariful Islam Phone: 8801816423253
+Address:  Essential Drugs Company Ltd.T ejgaon Industrial Area, Dhaka
+1208, Bangladesh
+Product Qty Price Total
+Mustard Honey 2 Kg 2 Tk 1,100.00 Tk 2,200.00
+Sub T otal Tk 2,200.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,250.00
+29
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092656 Date: 01-10-2024 10:38:21
+Name: Md Golam hossain Phone: 8801757283507
+Address:  House 155,road 8,block D,flat B5,Bashundhara r/a,Dhaka,
+Bangladesh
+Product Qty Price Total
+Moringa Powder 0.5 Kg 2 Tk 750.00 Tk 1,500.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,550.00
+30
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092666 Date: 01-10-2024 10:53:43
+Name: Shishir Imran Phone: 8801737015200
+Address:  Uttara Arab Ali Road Metro North Station Dhaka 1230
+Product Qty Price Total
+Chia Seeds 0.5 Kg 1 Tk 350.00 Tk 350.00
+Black Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 1,150.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,200.00
+31
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092669 Date: 01-10-2024 10:57:45
+Name: Hafiz Uullah Phone: 8801716742873
+Address:  মানশন , িময়াজপাড়া , নািপেতরেপাল , মাইজিদ , নায়াখািল
+Product Qty Price Total
+Isubgol Husk 0.5 Kg 1 Tk 1,350.00 Tk 1,350.00
+Sub T otal Tk 1,350.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,450.00
+32
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092684 Date: 01-10-2024 1 1:26:09
+Name: Imran hosen Phone: 880163199361 1
+Address:  রাউজান  কদলপুর  , আশরাফ  আলী  চৗধুরী  হাট , চাম
+Product Qty Price Total
+Chia Seeds 0.5 Kg 1 Tk 350.00 Tk 350.00
+Garlic Honey 0.5 Kg 1 Tk 700.00 Tk 700.00
+Sub T otal Tk 1,050.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,150.00
+33
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092685 Date: 01-10-2024 1 1:30:58
+Name: Zakir Hossain Phone: 8801710028831
+Address:  Hobigonj, Madhobpur
+Product Qty Price Total
+Ashwagandha 0.5 Kg 1 Tk 1,050.00 Tk 1,050.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+Sub T otal Tk 1,800.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,900.00
+34
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092695 Date: 01-10-2024 1 1:39:42
+Name: Masud mia Phone: 88017841 16468
+Address:  keraniganj,per ganderia,kana potti,Dhaka
+Product Qty Price Total
+Chia Seeds 1 Kg 1 Tk 650.00 Tk 650.00
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Sub T otal Tk 800.00
+Shipping Cost Tk 50.00
+Total Amount Tk 850.00
+35
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092699 Date: 01-10-2024 1 1:44:50
+Name: MD Israk Jahin Phone: 8801706495845
+Address:  BNS Sekh Mujib, Lake City Road, Khilkhet, Dhaka
+Product Qty Price Total
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Chia Honey Combo 1 Kg 1 Tk 900.00 Tk 900.00
+Mustard Honey 1 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 1,650.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,700.00
+36
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092700 Date: 01-10-2024 1 1:47:1 1
+Name: MD Israk Jahin Phone: 8801706495845
+Address:  BNS Sekh Mujib, Lake City Road, Khilkhet, Dhaka
+Product Qty Price Total
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Chia Honey Combo 1 Kg 1 Tk 900.00 Tk 900.00
+Mustard Honey 1 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 1,650.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,700.00
+37
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092701 Date: 01-10-2024 1 1:53:16
+Name: MD Israk Jahin Phone: 8801706495845
+Address:  BNS Sekh Mujib, Lake City Road, Khilkhet, Dhaka
+Product Qty Price Total
+Chia Honey Combo 1 Kg 1 Tk 900.00 Tk 900.00
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Mustard Honey 1 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 1,650.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,700.00
+38
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092712 Date: 01-10-2024 1 1:58:38
+Name: MD Israk Jahin Phone: 8801706495845
+Address:  BNS Sekh Mujib, Lake City Road, Khilkhet, Dhaka
+Product Qty Price Total
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Chia Honey Combo 1 Kg 1 Tk 900.00 Tk 900.00
+Mustard Honey 1 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 1,650.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,700.00
+39
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092713 Date: 01-10-2024 1 1:58:58
+Name: lipi afrin Phone: 8801847068179
+Address:  Renata ltd,hoeadof fice,milkvita road,mirpur -1 1.5,sec -4
+Product Qty Price Total
+Sundarban Natural Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Black Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 1,600.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,650.00
+40
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092714 Date: 01-10-2024 12:00:01
+Name: Swazal Mahmoud Phone: 8801921350651
+Address:  Islambag(stuf f quater Jame mosjid),chawk bazar , Dhaka
+Product Qty Price Total
+Black Honey 1 Kg 1 Tk 1,450.00 Tk 1,450.00
+Lychee Honey 1 Kg 1 Tk 650.00 Tk 650.00
+Sub T otal Tk 2,100.00
+Shipping Cost Tk 50.00
+Discount Tk 50.00
+Total Amount Tk 2,100.00
+41
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092723 Date: 01-10-2024 12:28:03
+Name: Shadat Alam Shawon Phone: 8801916499791
+Address:  TA-58/1, Bowbazar , Boishakhi Soroni, Middle Badda, Dhaka
+Product Qty Price Total
+Garlic Honey 1 Kg 1 Tk 1,350.00 Tk 1,350.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+Sub T otal Tk 2,100.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,150.00
+42
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092725 Date: 01-10-2024 12:34:09
+Name: Sakil Phone: 8801629797828
+Address:  মাতার  বািড়  ওয়াড   নং  ৫  াম  - উর  দীঘলদী  থানা - ভালা  সদর  পা
+- জয়নগর  জলা  - ভালা
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Sub T otal Tk 1,200.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,300.00
+43
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092726 Date: 01-10-2024 12:34:50
+Name: Tanjib Phone: 8801949614034
+Address:  Rajbari,Baliakandi Upazila, Bangladesh
+Product Qty Price Total
+Garlic Honey 0.5 Kg 1 Tk 700.00 Tk 700.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+Sub T otal Tk 1,450.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,550.00
+44
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092728 Date: 01-10-2024 12:38:09
+Name: Hakim Abdullah Phone: 8801972334536
+Address:  "Ulurchar Bazar choware Sadar দিণ  cumilla"
+Product Qty Price Total
+Moringa Powder 0.5 Kg 2 Tk 750.00 Tk 1,500.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+45
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092733 Date: 01-10-2024 12:46:43
+Name: মিরনা Phone: 8801748344896
+Address:  বড়া  চক  সূাপুর  চামড়াদাম  চার  নর  ওয়াড  , বড়া
+Product Qty Price Total
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Pink Salt 0.25 Kg 1 Tk 150.00 Tk 150.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+Sundarban Natural Honey 1 Kg 1 Tk 1,500.00 Tk 1,500.00
+Sub T otal Tk 3,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 3,600.00
+46
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092739 Date: 01-10-2024 13:01:48
+Name: monirujjaman Phone: 8801784590294
+Address:  chadpur , shahrasti , ularoad
+Product Qty Price Total
+Chia Seeds 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Sub T otal Tk 2,150.00
+Shipping Cost Tk 100.00
+Total Amount Tk 2,250.00
+47
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092747 Date: 01-10-2024 13:24:58
+Name: Rejwan Phone: 8801927835842
+Address:  Kazipara, Saidpur , Nilphamari
+Product Qty Price Total
+Garlic Honey 1 Kg 3 Tk 1,350.00 Tk 4,050.00
+Sub T otal Tk 4,050.00
+Shipping Cost Tk 100.00
+Total Amount Tk 4,150.00
+48
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092768 Date: 01-10-2024 14:19:47
+Name: Fajlay Rabbi Phone: 8801629503432
+Address:  Haji Hossain Plaza, Stafquater , Demra, Dhaka
+Product Qty Price Total
+Sundarban Natural Honey 0.5 Kg 2 Tk 800.00 Tk 1,600.00
+Sub T otal Tk 1,600.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,650.00
+Notes
+Need to delivery after 1 1 PM
+49
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092774 Date: 01-10-2024 14:34:15
+Name: Armaan Sojol Phone: 8801829429967
+Address:  মনু বাপািরর  ঢাল  ভ ূ ইয়া  ভবন  এর  িপছেন  করানীগ  ঢাকা
+Product Qty Price Total
+Sundarban Natural Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Black Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 1,600.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,650.00
+50
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092792 Date: 01-10-2024 15:07:20
+Name: মাও , আবুল  হািশম Phone: 8801790339001
+Address:  বা ু রা , নবাবগ , ঢাকা
+Product Qty Price Total
+Black Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sundarban Natural Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 1,600.00
+Shipping Cost Tk 50.00
+Discount Tk 50.00
+Total Amount Tk 1,600.00
+51
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092794 Date: 01-10-2024 15:08:08
+Name: ইমন  আহমদ Phone: 8801723696954
+Address:  ক ু মারগাও  বাস  া  জালালাবাদ  িসেলট
+Product Qty Price Total
+Moringa Powder 0.5 Kg 2 Tk 750.00 Tk 1,500.00
+Sub T otal Tk 1,500.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,600.00
+52
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092798 Date: 01-10-2024 15:18:01
+Name: মাঃ  কামাল  হােসন Phone: 8801989044570
+Address:  দাকান  নং  ৩৫ - ৪ ০  এেনেকা  টাওয়ার ( ৪থ   তলা ) ফিন  রাড ,
+ফ ু লবািড়য়া , ঢাকা  ১০০০
+Product Qty Price Total
+Mustard Honey 1 Kg 1 Tk 600.00 Tk 600.00
+Honey Nut 0.9 Kg 1 Tk 1,200.00 Tk 1,200.00
+Sub T otal Tk 1,800.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,850.00
+53
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092800 Date: 01-10-2024 15:21:36
+Name: নাজমুল  হাছান Phone: 8801400828594
+Address:  জলা  ক ু িমা  থানা  নাঈলেকাট  াম  পােটায়ার  মজ ু মদার  বািড়  জােম
+মসজদ
+Product Qty Price Total
+Mustard Honey 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Mustard Honey 1 Kg 1 Tk 600.00 Tk 600.00
+Black Honey 0.5 Kg 1 Tk 800.00 Tk 800.00
+Sub T otal Tk 2,500.00
+Shipping Cost Tk 100.00
+Discount Tk 50.00
+Total Amount Tk 2,550.00
+54
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092801 Date: 01-10-2024 15:22:38
+Name: অিলিময়া Phone: 8801874326124
+Address:  জলা  ক ু িমা  থানা  মুরাদনগর  সােলয়াকা  বাজার
+Product Qty Price Total
+Grow Up Baby Milk Shake 0.6 Kg 1 Tk 850.00 Tk 850.00
+Sub T otal Tk 850.00
+Shipping Cost Tk 100.00
+Total Amount Tk 950.00
+55
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092803 Date: 01-10-2024 15:27:57
+Name: ডা . শখ  আবু  নঈম Phone: 880191 1330660
+Address:  কামারপাড়া   ু েলর  পােশ  কামারপাড়া , উরা , ঢাকা।
+Product Qty Price Total
+Chia Seeds 1 Kg 1 Tk 650.00 Tk 650.00
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Sub T otal Tk 1,700.00
+Shipping Cost Tk 50.00
+Total Amount Tk 1,750.00
+56
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-09281 1 Date: 01-10-2024 15:53:49
+Name: Emon Phone: 8801937271516
+Address:  lalbagh chourasta Dhaka
+Product Qty Price Total
+Sundarban Natural Honey 1 Kg 1 Tk 1,500.00 Tk 1,500.00
+Black Honey 1 Kg 1 Tk 1,450.00 Tk 1,450.00
+Sub T otal Tk 2,950.00
+Shipping Cost Tk 50.00
+Discount Tk 3,000.00
+Total Amount Tk 0.00
+Notes
+Full paid on Bkash
+57
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092824 Date: 01-10-2024 17:14:17
+Name: Sharmin Sultana Phone: 8801793592829
+Address:  House No# B -186, Block # B Road # E -1, Eastern housing Ltd.
+Pollobi Dhaka
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Mustard Honey 2 Kg 1 Tk 1,100.00 Tk 1,100.00
+Sub T otal Tk 2,150.00
+Shipping Cost Tk 50.00
+Total Amount Tk 2,200.00
+58
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092830 Date: 01-10-2024 17:35:25
+Name: নুর  হােসন Phone: 8801305580978
+Address:  বাজার  ঘাটা , সদর  কবাজার
+Product Qty Price Total
+Black Honey 1 Kg 1 Tk 1,450.00 Tk 1,450.00
+Moringa Powder 0.5 Kg 1 Tk 750.00 Tk 750.00
+Chia Seeds 0.5 Kg 1 Tk 350.00 Tk 350.00
+Sub T otal Tk 2,550.00
+Shipping Cost Tk 100.00
+Total Amount Tk 2,650.00
+59
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092832 Date: 01-10-2024 18:33:36
+Name: MD munir Phone: 8801822747890
+Address:  b bari nobinagar 2 no word monir telicom
+Product Qty Price Total
+Seed Shorbot 1 Kg 1 Tk 1,050.00 Tk 1,050.00
+Sub T otal Tk 1,050.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,150.00
+60
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092833 Date: 01-10-2024 18:39:20
+Name: মিনামান  বপারী Phone: 8801954744059
+Address:  াম , রােয়রকা  পা  মাা  কা  থানা  মতলব  উর  জলা  চা ঁ দপুর
+Product Qty Price Total
+Lychee Honey 2 Kg 1 Tk 1,050.00 Tk 1,050.00
+Sub T otal Tk 1,050.00
+Shipping Cost Tk 100.00
+Total Amount Tk 1,150.00
+61
+
+NATURO
+Help Line: 09639812525
+Invoice No: NA-092836 Date: 01-10-2024 19:00:35
+Name: Joynal Khan Joy Phone: 8801646781708
+Address:  cox bazar ukhiya
+Product Qty Price Total
+Ashwagandha 0.2 Kg 1 Tk 600.00 Tk 600.00
+Sub T otal Tk 600.00
+Shipping Cost Tk 100.00
+Discount Tk 50.00
+Total Amount Tk 650.00
+62
