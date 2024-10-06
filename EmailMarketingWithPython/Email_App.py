@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 import pandas as pd
 import time
 subject="সময় মত আয়কর রিটান জমা দিন, ঝামেলা মুক্ত থাকুন।"
-
+ 
 
 html_template = """
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -436,6 +436,7 @@ if __name__ == '__main__':
     read_list = [line.strip() for line in file]
   ############
   n=0
+  null=0
   s=0
   i=0
   j=0
@@ -490,6 +491,15 @@ if __name__ == '__main__':
   #       print(column_data[c])
   #       if "sending limits go" in str(e):
         #   break
+        # if "please run connect() first" in str(e):
+        #   if null==1:
+        #     null=0
+        #     break
+        #   server = smtplib.SMTP('smtp.gmail.com', 587)
+        #   server.starttls()
+        #   server.login(sender_email, password)
+        #   null=1        
+
         # if "is not a valid" in str(e):
         #   c=c+1
         #   continue
@@ -552,6 +562,14 @@ if __name__ == '__main__':
         print(column_data[c])
         if "sending limits go" in str(e):
           break
+        if "please run connect() first" in str(e):
+          if null==1:
+            null=0
+            break
+          server = smtplib.SMTP('smtp.gmail.com', 587)
+          server.starttls()
+          server.login(sender_email, password)
+          null=1
         if "is not a valid" in str(e):
           c=c+1
           continue
@@ -612,6 +630,15 @@ if __name__ == '__main__':
         print(column_data[c])
         if "sending limits go" in str(e):
           break
+        if "please run connect() first" in str(e):
+          if null==1:
+            null=0
+            break
+          server = smtplib.SMTP('smtp.gmail.com', 587)
+          server.starttls()
+          server.login(sender_email, password)
+          null=1
+          
         if "is not a valid" in str(e):
           c=c+1
           continue
@@ -667,6 +694,14 @@ if __name__ == '__main__':
         print(column_data[c])
         if "sending limits go" in str(e):
           break
+        if "please run connect() first" in str(e):
+          if null==1:
+            null=0
+            break
+          server = smtplib.SMTP('smtp.gmail.com', 587)
+          server.starttls()
+          server.login(sender_email, password)
+          null=1
         if "is not a valid" in str(e):
           c=c+1
           continue
@@ -723,6 +758,14 @@ if __name__ == '__main__':
         print(column_data[c])
         if "sending limits go" in str(e):
           break
+        if "please run connect() first" in str(e):
+          if null==1:
+            null=0
+            break
+          server = smtplib.SMTP('smtp.gmail.com', 587)
+          server.starttls()
+          server.login(sender_email, password)
+          null=1
         if "is not a valid" in str(e):
           c=c+1
           continue
@@ -779,6 +822,14 @@ if __name__ == '__main__':
         print(column_data[c])
         if "sending limits go" in str(e):
           break
+        if "please run connect() first" in str(e):
+          if null==1:
+            null=0
+            break
+          server = smtplib.SMTP('smtp.gmail.com', 587)
+          server.starttls()
+          server.login(sender_email, password)
+          null=1
         if "is not a valid" in str(e):
           c=c+1
           continue
@@ -835,6 +886,14 @@ if __name__ == '__main__':
         print(column_data[c])
         if "sending limits go" in str(e):
           break
+        if "please run connect() first" in str(e):
+          if null==1:
+            null=0
+            break
+          server = smtplib.SMTP('smtp.gmail.com', 587)
+          server.starttls()
+          server.login(sender_email, password)
+          null=1
         if "is not a valid" in str(e):
           c=c+1
           continue

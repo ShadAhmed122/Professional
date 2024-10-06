@@ -1,7 +1,7 @@
 import PyPDF2 as p
 from datetime import datetime
 import openpyxl
-import re
+import re,os
 
 def extract_invoice_number(text):
     match = re.search(r"Invoice No: ([A-Z]+-\d[\d\s]*)", text)
@@ -20,7 +20,6 @@ def extract_shipping_cost(text):
     if match:
         return int(float(match.group(1).replace(',', '')))
     return 0
-
 
 def extract_product_info(text):
 
@@ -45,7 +44,6 @@ def extract_product_info(text):
  
     return product_details, len(products)
 
-
 def extract_discount(text):
     match = re.search(r"Discount Tk ([\d,]+\.\d+)", text)
     if match:
@@ -63,7 +61,21 @@ def extract_discount(text):
 
 
 if __name__ == '__main__':
-    pdf = p.PdfReader(open(r"D:\OfficeDocumentsOfShadAhmed\MyProfessionalRepository\Professional\InvoiceReaderSoftware\abc2.pdf", "rb"))
+    current_dir = os.getcwd()
+    desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+    os.chdir(desktop_path)
+    
+    
+    pdf_file = None
+    for file in os.listdir():
+        if file.endswith(".pdf"):
+            pdf_file = file
+            break
+        
+    pdf_path = os.path.join(desktop_path, pdf_file)
+    pdf_file_obj = open(pdf_path, "rb")
+    pdf = p.PdfReader(pdf_file_obj)
+    # pdf = p.PdfReader(open(r"D:\OfficeDocumentsOfShadAhmed\MyProfessionalRepository\Professional\InvoiceReaderSoftware\abc2.pdf", "rb"))
     pdf=pdf.pages[:]
     
     
@@ -128,7 +140,6 @@ if __name__ == '__main__':
             
             
         print(" ")
-        
-        
     workbook.save('new_excel_file2.xlsx')
     print("Excel file created successfully!")
+    os.chdir(current_dir)
