@@ -6,6 +6,7 @@ import pygame,pyttsx3
 from pygame.locals import *
 import sys
 import time
+
 global current_dir
 
 
@@ -22,7 +23,7 @@ def excelll():
             pdf_file = file
             break
     if pdf_file:
-        pass
+        pdf_file_name = os.path.splitext(pdf_file)[0]
     else:
         spek("No PDF file in the Desktop")
         return 1
@@ -99,7 +100,10 @@ def excelll():
         
     desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
     os.chdir(desktop_path)
-    workbook.save('new_excel_file2.xlsx')
+    # workbook.save('new_excel_file2.xlsx')
+    
+    excel_file_name = pdf_file_name + '.xlsx'
+    workbook.save(excel_file_name)
     os.chdir(current_dir)
     print("Excel file created successfully!")
    
@@ -238,8 +242,7 @@ def Guideline():
             
             pygame.display.update()
             fps.tick(60)                
-
-                
+      
 def Exxx():
     welcome_image = pygame.image.load('extracting.png').convert_alpha()
     welcome_image = pygame.transform.scale(welcome_image, (1535, 865))
@@ -325,7 +328,6 @@ def Exxx():
         welcome_image = pygame.transform.scale(welcome_image, (1535, 865))
         screen.blit(welcome_image, (193,110))
         pygame.display.update()
-        
         spek("Congratulations. Your Excel File is created")
         while True:
         
@@ -552,8 +554,7 @@ def mainloop():
 
             pygame.display.update()
             fps.tick(60)
-            
-            
+      
 if __name__=="__main__":
     current_dir = os.getcwd()
     screen= pygame.display.set_mode((1920,1080))
