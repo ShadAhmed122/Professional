@@ -102,13 +102,15 @@ def excelll():
     os.chdir(desktop_path)
     # workbook.save('new_excel_file2.xlsx')
     
-    excel_file_name = pdf_file_name + '.xlsx'
+    # excel_file_name = pdf_file_name + '.xlsx'
+    excel_file_name = "Extracted_Data" + '.xlsx'
     workbook.save(excel_file_name)
     os.chdir(current_dir)
     print("Excel file created successfully!")
    
     
     return 0
+
 
 def extract_invoice_number(text):
     match = re.search(r"Invoice No: ([A-Z]+-\d[\d\s]*)", text)
@@ -156,6 +158,7 @@ def extract_discount(text):
     if match:
         return int(float(match.group(1).replace(',', '')))
     return 0
+
 
 def spek(audio):
     speak=pyttsx3.init("sapi5")
